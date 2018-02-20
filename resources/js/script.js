@@ -83,7 +83,16 @@ $(document).ready(function() {
   // MAPS
   var map = new GMaps({
     div: '.map',
-    lat: -12.043333,
-    lng: -77.028333
+    lat: -8.8333639,
+    lng: 13.257018,
+    zoom: 14
+  });
+  map.addMarker({
+    lat: -8.8333639,
+    lng: 13.237018,
+    title: 'Marteris do Kifangondo',
+    infoWindow: {
+      content: '<p>Marteris do Kifangondo</p>'
+    }
   });
 });
